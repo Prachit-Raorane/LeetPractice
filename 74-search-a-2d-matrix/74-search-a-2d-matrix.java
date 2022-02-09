@@ -5,9 +5,6 @@ class Solution {
         int lo =0 , high = (rows * cols) -1;
         
         
-        
-        
-       
         int i = 0 , j =0;
         int current = 0 ;
         while(lo <= high){
