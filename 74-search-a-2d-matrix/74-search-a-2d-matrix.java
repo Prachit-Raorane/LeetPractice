@@ -6,9 +6,6 @@ class Solution {
         
         
         
-        if(rows == 1 && cols == 1){
-            return matrix[0][0] == target;
-        }
         
        
         int i = 0 , j =0;
@@ -18,7 +15,6 @@ class Solution {
             i = mid / cols;
             j = mid % cols;
             
-            System.out.println(i + " " + j +" " + high + " " + lo + " "+ mid);
             current = matrix[i][j];
             if(target == current){
                 return true;
