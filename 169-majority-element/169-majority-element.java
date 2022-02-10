@@ -24,8 +24,5 @@ class Solution {
     }
     
     
-    private int countInstances(int [] nums, int k){
-        
-        return Arrays.stream(nums).boxed().filter(n -> n==k).collect(Collectors.counting()).intValue();
-    }
+  
 }
